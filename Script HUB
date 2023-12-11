@@ -22,13 +22,17 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundColor3 = Color3.new(0, 0, 1)
+Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderSizePixel = 3
 Frame.Position = UDim2.new(0.382171214, 0, 0.328530252, 0)
 Frame.Size = UDim2.new(0, 378, 0, 250)
 
 Name.Name = "Name"
 Name.Parent = Frame
 Name.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Name.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Name.BorderSizePixel = 3
 Name.Size = UDim2.new(0, 378, 0, 25)
 Name.Font = Enum.Font.GothamBold
 Name.Text = "SCRIPT HUB"
@@ -52,7 +56,7 @@ Credits.TextWrapped = true
 
 e1x1x1x1Message.Name = "e1x1x1x1Message"
 e1x1x1x1Message.Parent = Frame
-e1x1x1x1Message.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+e1x1x1x1Message.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 e1x1x1x1Message.Position = UDim2.new(0.0714285746, 0, 0.216000006, 0)
 e1x1x1x1Message.Size = UDim2.new(0, 79, 0, 31)
 e1x1x1x1Message.Font = Enum.Font.GothamBold
@@ -70,7 +74,7 @@ setclipboard("CENSORED")
 end)
 e1x1x1x1Music.Name = "e1x1x1x1Music"
 e1x1x1x1Music.Parent = Frame
-e1x1x1x1Music.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+e1x1x1x1Music.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 e1x1x1x1Music.Position = UDim2.new(0.0714285746, 0, 0.436000019, 0)
 e1x1x1x1Music.Size = UDim2.new(0, 79, 0, 31)
 e1x1x1x1Music.Font = Enum.Font.GothamBold
@@ -98,7 +102,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/xgSsjCLt"))()
 end)
 DayToNight.Name = "DayToNight"
 DayToNight.Parent = Frame
-DayToNight.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+DayToNight.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 DayToNight.Position = UDim2.new(0.388888896, 0, 0.216000006, 0)
 DayToNight.Size = UDim2.new(0, 83, 0, 31)
 DayToNight.Font = Enum.Font.GothamBold
@@ -112,7 +116,7 @@ setclipboard("ì̵̢̛̛̈́̓̄̒́͆̌̅̀̓̚͝ ̵͊̀͘͜M̷̢̢̧̙̗̫͔͍
 end)
 e666.Name = "e666"
 e666.Parent = Frame
-e666.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+e666.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 e666.Position = UDim2.new(0.388888896, 0, 0.43599999, 0)
 e666.Size = UDim2.new(0, 83, 0, 31)
 e666.Font = Enum.Font.GothamBold
@@ -126,7 +130,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/BOSSJKL2/c00lkidd/mai
 end)
 EpicSaxGuy.Name = "EpicSaxGuy"
 EpicSaxGuy.Parent = Frame
-EpicSaxGuy.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+EpicSaxGuy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 EpicSaxGuy.Position = UDim2.new(0.388888896, 0, 0.648000002, 0)
 EpicSaxGuy.Size = UDim2.new(0, 83, 0, 34)
 EpicSaxGuy.Font = Enum.Font.GothamBold
@@ -141,7 +145,7 @@ setclipboard("require(12861793677).cXyzskidd("Tubers93HKRB")")
 end)
 Disc0.Name = "Disc0"
 Disc0.Parent = Frame
-Disc0.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Disc0.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Disc0.Position = UDim2.new(0.693121672, 0, 0.216000006, 0)
 Disc0.Size = UDim2.new(0, 89, 0, 31)
 Disc0.Font = Enum.Font.GothamBold
@@ -155,7 +159,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/aMtQRfDA",true))()
 end)
 e2006Theme.Name = "e2006Theme"
 e2006Theme.Parent = Frame
-e2006Theme.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+e2006Theme.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 e2006Theme.Position = UDim2.new(0.693121672, 0, 0.43599999, 0)
 e2006Theme.Size = UDim2.new(0, 89, 0, 31)
 e2006Theme.Font = Enum.Font.GothamBold
@@ -171,7 +175,7 @@ e2006Theme.MouseButton1Down:connect(function()
 end)
 ForceField.Name = "ForceField"
 ForceField.Parent = Frame
-ForceField.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ForceField.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ForceField.Position = UDim2.new(0.693121672, 0, 0.648000002, 0)
 ForceField.Size = UDim2.new(0, 89, 0, 34)
 ForceField.Font = Enum.Font.GothamBold
